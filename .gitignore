@@ -1,0 +1,33 @@
+
+# ===== IDE-Specific Configuration Files =====
+# IntelliJ IDEA
+/.idea/
+/*.iml
+*.ipr
+*.iws
+.mvn/
+
+
+/out/
+
+
+# ===== Build Files =====
+eureka-server/target/
+account/target/
+authorization-server/target
+oauthclient/target
+
+
+*mvnw.cmd
+*mvnw
+*.iml
+*.gitattributes
+*HELP.md
+*maven-wrapper.properties
+
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
